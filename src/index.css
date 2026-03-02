@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-stone-50 text-stone-900 antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .input-luxury {
+    @apply w-full bg-transparent border-0 border-b border-stone-200 pb-2 pt-1
+           text-stone-900 placeholder-stone-300 focus:outline-none focus:border-amber-600
+           transition-colors duration-200 text-base;
+  }
+
+  .label-luxury {
+    @apply block text-xs font-medium tracking-widest uppercase text-stone-400 mb-2;
+  }
+}
