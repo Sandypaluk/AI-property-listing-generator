@@ -8,7 +8,8 @@ Built with Claude API to eliminate manual copywriting for
 luxury vacation property listings.
 
 ## 🚀 Live Demo
-[Live App]([ai-property-listing-generator.vercel.app])| [Video Walkthrough]([https://youtu.be/Blk4pKRkiKw])
+[Live App]([ai-property-listing-generator.vercel.app]) 
+[Video Walkthrough]([https://youtu.be/Blk4pKRkiKw])
 
 ## 💡 The Problem It Solves
 Writing high-quality property listings is time-consuming and 
