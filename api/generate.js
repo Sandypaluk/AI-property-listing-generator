@@ -20,7 +20,7 @@ export default async function handler(req, res) {
       amenities?.length > 0 ? amenities.join(', ') : 'standard amenities'
 
     const message = await anthropic.messages.create({
-      model: 'claude-sonnet-4-20250514',
+      model: 'claude-sonnet-4-5',
       max_tokens: 2048,
       system:
         'You are an elite luxury real estate copywriter specializing in vacation home co-ownership properties. You craft evocative, aspirational marketing copy for discerning high-net-worth buyers seeking exclusive lifestyle experiences. Respond with valid JSON only — no markdown, no preamble, no code blocks.',
