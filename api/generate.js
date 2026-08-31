@@ -54,7 +54,8 @@ Each description must have exactly 3 paragraphs (2–4 sentences each). Write in
       ],
     })
 
-    const rawContent = message.content[0].text.trim()
+    const rawContent = message?.content?.[0]?.text?.trim() || message?.content?.[0]?.text || ''
+if (!rawContent) throw new Error('Empty response from AI: ' + JSON.stringify(message.content))
 
     let result
     try {
